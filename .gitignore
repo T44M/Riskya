@@ -1,0 +1,23 @@
+# .gitignore
+# Node.js
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 環境変数
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# その他
+*.log
